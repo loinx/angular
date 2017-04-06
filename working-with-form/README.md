@@ -25,3 +25,20 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Install latest version of current dependencies
+
+``` bash
+
+npm install --save @angular/common@latest @angular/compiler@latest @angular/core@latest @angular/forms@latest @angular/http@latest @angular/platform-browser@latest @angular/platform-browser-dynamic@latest @angular/router@latest core-js@latest rxjs@latest zone.js@latest
+
+```
+
+
+## Install latest version of current devdependencies
+
+``` bash
+
+npm install --save-dev @angular/cli@latest @angular/compiler-cli@latest @types/jasmine@latest @types/node@latest codelyzer@latest jasmine-core@latest jasmine-spec-reporter@latest karma@latest karma-chrome-launcher@latest karma-cli@latest karma-coverage-istanbul-reporter@latest karma-jasmine@latest karma-jasmine-html-reporter@latest protractor@latest ts-node@latest tslint@latest typescript@latest
+
+```
